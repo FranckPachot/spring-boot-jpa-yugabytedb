@@ -1,8 +1,7 @@
 
 image: gitpod/workspace-java-17
 tasks:
-  - before: docker run -d -p5433:5433 -p15433:15433 yugabytedb/yugabyte yugabyted start --background=false
+  - before: docker compose up
   - init: mvn spring-boot:run
-  #- init: ./mvnw install -DskipTests=false
 
 

@@ -1,0 +1,12 @@
+services:
+ yb:
+  image: yugabytedb/yugabyte
+  command: yugabyted start --background=false
+  ports:
+   - 5433:5433
+   - 15433:15433
+  healthcheck:
+   start_period: 15s
+   interval: 5s
+   timeout: 3s
+   test: postgres/bin/pg_isready -h yb-tserver
