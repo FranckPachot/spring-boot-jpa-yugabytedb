@@ -1,0 +1,4 @@
+/workspace/spring-boot-jpa-yugabytedb/src/main/java/com/franckpachot/spring/jpa/yugabytedb/SpringBootJpaPostgresqlApplication.java
+/workspace/spring-boot-jpa-yugabytedb/src/main/java/com/franckpachot/spring/jpa/yugabytedb/model/Tutorial.java
+/workspace/spring-boot-jpa-yugabytedb/src/main/java/com/franckpachot/spring/jpa/yugabytedb/repository/TutorialRepository.java
+/workspace/spring-boot-jpa-yugabytedb/src/main/java/com/franckpachot/spring/jpa/yugabytedb/controller/TutorialController.java
